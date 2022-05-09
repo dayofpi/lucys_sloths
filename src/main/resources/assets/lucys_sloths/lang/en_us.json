@@ -1,0 +1,11 @@
+{
+  "entity.lucys_sloths.sloth": "Sloth",
+  "item.lucys_sloths.sloth_spawn_egg": "Sloth Spawn Egg",
+  "subtitle.entity.sloth.ambient": "Sloth squeaks",
+  "subtitle.entity.sloth.death": "Sloth dies",
+  "subtitle.entity.sloth.eat": "Sloth eats",
+  "subtitle.entity.sloth.grow_seagrass": "Sloth grows seagrass",
+  "subtitle.entity.sloth.hurt": "Sloth hurt",
+  "subtitle.entity.sloth.step": "Sloth crawls"
+
+}

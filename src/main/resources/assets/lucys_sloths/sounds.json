@@ -1,0 +1,50 @@
+{
+  "entity.sloth.ambient": {
+    "sounds": [
+      "lucys_sloths:sloth/ambient1",
+      "lucys_sloths:sloth/ambient2",
+      "lucys_sloths:sloth/ambient3",
+      "lucys_sloths:sloth/ambient4",
+      "lucys_sloths:sloth/ambient5"
+    ],
+    "subtitle": "subtitle.entity.sloth.ambient"
+  },
+  "entity.sloth.eat": {
+    "sounds": [
+      "lucys_sloths:sloth/eat1",
+      "lucys_sloths:sloth/eat2",
+      "lucys_sloths:sloth/eat3"
+    ],
+    "subtitle": "subtitle.entity.sloth.eat"
+  },
+  "entity.sloth.step": {
+    "sounds": [
+      "lucys_sloths:sloth/step1",
+      "lucys_sloths:sloth/step2",
+      "lucys_sloths:sloth/step3"
+    ],
+    "subtitle": "subtitle.entity.sloth.step"
+  },
+  "entity.sloth.hurt": {
+    "sounds": [
+      "lucys_sloths:sloth/hurt1",
+      "lucys_sloths:sloth/hurt2",
+      "lucys_sloths:sloth/hurt3"
+    ],
+    "subtitle": "subtitle.entity.sloth.hurt"
+  },
+  "entity.sloth.death": {
+    "sounds": [
+      "lucys_sloths:sloth/hurt1",
+      "lucys_sloths:sloth/hurt2",
+      "lucys_sloths:sloth/hurt3"
+    ],
+    "subtitle": "subtitle.entity.sloth.death"
+  },
+  "entity.sloth.grow_seagrass": {
+    "sounds": [
+      "lucys_sloths:sloth/grow_seagrass"
+    ],
+    "subtitle": "subtitle.entity.sloth.grow_seagrass"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "lucys_sloths",
+  "version": "${version}",
+
+  "name": "Lucy's Sloths",
+  "description": "Adds sloths",
+  "authors": [
+    "dayofpi"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/lucys-sloths",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lucys_sloths/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dayofpi.lucys_sloths.Main"
+    ],
+    "client": [
+      "com.dayofpi.lucys_sloths.Client"
+    ]
+  },
+  "mixins": [
+    "lucys-sloths.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
