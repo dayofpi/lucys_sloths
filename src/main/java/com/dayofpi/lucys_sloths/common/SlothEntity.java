@@ -352,16 +352,14 @@ public class SlothEntity extends AnimalEntity {
     public void tickMovement() {
         super.tickMovement();
         Entity entity = this.getVehicle();
-        if (!world.isClient) {
-            if (entity instanceof SlothEntity && ((SlothEntity) entity).getPlantBlock() != null) {
+        if (entity instanceof SlothEntity && ((SlothEntity) entity).getPlantBlock() != null) {
+            this.dismountVehicle();
+        }
+        if (entity instanceof PlayerEntity) {
+            this.setYaw(entity.getYaw());
+            if (entity.isSneaking()) {
                 this.dismountVehicle();
-            }
-            if (entity instanceof PlayerEntity) {
-                this.setYaw(entity.getYaw());
-                if (entity.isSneaking()) {
-                    this.dismountVehicle();
-                    this.calculateDimensions();
-                }
+                this.calculateDimensions();
             }
         }
     }
